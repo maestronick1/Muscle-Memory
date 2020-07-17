@@ -1,84 +1,146 @@
-var string ("nick");
-console.log(string);
+// var string ("nick");
+// console.log(string);
 
 
-let number = (12);
-console.log=(number);
+// let number = (12);
+// console.log=(number);
 
-var cars = ["Saab", "Volvo", "BMW", "Toyota"];
-console.log(cars);
+// var cars = ["Saab", "Volvo", "BMW", "Toyota"];
+// console.log(cars);
 
-let todayIsSat = false;
-console.log(todayIsSat);
-
-
-let user = {
-    name: "Nick",
-    town: "Hughson",
-    food: "pizza",
-    age: "36",
-    isYoung: false
-  };
+// let todayIsSat = false;
+// console.log(todayIsSat);
 
 
-  //functions
+// let user = {
+//     name: "Nick",
+//     town: "Hughson",
+//     food: "pizza",
+//     age: "36",
+//     isYoung: false
+//   };
 
-  function printName (){   
-      let name= "Nick";
-      console.log(printName)
 
-  }
-  var fruits = ["Banana", "Orange", "Apple", "Mango"];
-  var x = fruits.pop(); 
+//   //functions
 
-  function greeting() {
-    console.log("Hello, World!");
+//   function printName (){   
+//       let name= "Nick";
+//       console.log(printName)
 
-   //pass in array
-    function displayCoolCar(array)
-    let result=[];
-    for let i= 0; i , array.length; i ++0 {
-        if (nbike.length > 7) {
-            result.push(cars);
-        }
-    }
-    return result
-}
-console.log*(displaCoolCar(cars));
+//   }
+//   var fruits = ["Banana", "Orange", "Apple", "Mango"];
+//   var x = fruits.pop(); 
 
-function removeFromArray(callback, array) {
-    let result = callback(array) [0];
-    console.log(result);
-}
+//   function greeting() {
+//     console.log("Hello, World!");
 
-removeFromArray(displayCoolCar, cars);
+//    //pass in array
+//     function displayCoolCar(array)
+//     let result=[];
+//     for let i= 0; i , array.length; i ++0 {
+//         if (nbike.length > 7) {
+//             result.push(cars);
+//         }
+//     }
+//     return result
+// }
+// console.log*(displaCoolCar(cars));
 
-function printSentence(string) {
-    console.log(string);
+// function removeFromArray(callback, array) {
+//     let result = callback(array) [0];
+//     console.log(result);
+// }
 
-}
+// removeFromArray(displayCoolCar, cars);
 
-function printPlayers(object){
-    console.log(object.players);
-    printPlayers(lakers);
+// function printSentence(string) {
+//     console.log(string);
 
-function printEachPlayer(object) {
-    object.player.forEach(eachplayer=> {
-        console.log(eachplayer);
+// }
 
-    });
-}    
-}
+// function printPlayers(object){
+//     console.log(object.players);
+//     printPlayers(lakers);
+
+// function printEachPlayer(object) {
+//     object.player.forEach(eachplayer=> {
+//         console.log(eachplayer);
+
+//     });
+// }    
+// }
 const sectionOne = document.getElementById('section-one');
 console.log(sectionOne);
-const sectiontwo = document.getElementById('section-two');
-console.log(section-two);
+const sectionTwo = document.getElementById('section-two');
+console.log(sectionTwo);
 
-const sectionthree = document.querySelector('#section-three');
+const sectionThree = document.querySelector('#section-three');
 
-const sectionfour = document.querySelector('#section-four');
+const sectionFour = document.querySelector('#section-four');
 
-const sectionfive = document.querySelector('#section-five');
-console.log(section-four);
-console.log(section-five);
-console.log(section-three);
+const sectionFive = document.querySelector('#section-five');
+console.log(sectionFour);
+console.log(sectionFive);
+console.log(sectionThree);
+const paraOne = document.querySelector('.paragraph-one');
+console.log(paraOne);
+
+// paraOne.textContent = 'Labron james';
+// console.log(paraOne);
+// paraTwo.textContent = 'Steph Curry';
+// console.log(paraTwo);
+
+const paraThree = document.querySelector('.paragraph-Three');
+console.log(paraThree);
+paraThree.textContent = 'Kem Walker';
+
+const paraFour = document.querySelector('.paragraph-Four');
+console.log(paraFour);
+paraFour.textContent = 'Kyrie Irving';
+
+const paraFive = document.querySelector('.paragraph-Five');
+console.log(paraFive);
+paraFive.textContent = 'Kyrie Irving';
+
+
+const containerSix = document.createElement("div");
+containerSix.classList.add("container-six");
+console.log(containerSix);
+const sectionSix = document.createElement("h2");
+sectionSix.setAttribute("id", "section-six");
+sectionSix.textContent = "Weezy";
+console.log(sectionSix);
+const paraSix = document.createElement("p");
+paraSix.classList.add("paragraph-six");
+paraSix.textContent = "Turn your fruits in to Vegtables";
+console.log(paraSix);
+const body = document.querySelector("body");
+console.log(body);
+
+
+body.appendChild(containerSix);
+containerSix.appendChild(sectionSix);
+containerSix.appendChild(paraSix);
+
+
+
+
+
+
+
+const containerSeven = document.createElement("div");
+containerSeven.classList.add("container-seven");
+console.log(containerSix);
+const sectionSeven = document.createElement("h2")
+sectionSeven.setAttribute("id", "section-seven"
+sectionSeven.textContent = "Beethoven";
+console.log(sectionSeven);
+const paraSeven = document.createElement("p");
+paraSeven.classList.add("paragraph-seven");
+paraSeven.textContent = "Symphony number Five";
+console.log(paraSeven);
+
+
+body.appendChild(containerSeven);
+container.appendChild(sectionSeven);
+containerSeven.appendChild(paraSeven);
