@@ -69,3 +69,16 @@ function printEachPlayer(object) {
     });
 }    
 }
+const sectionOne = document.getElementById('section-one');
+console.log(sectionOne);
+const sectiontwo = document.getElementById('section-two');
+console.log(section-two);
+
+const sectionthree = document.querySelector('#section-three');
+
+const sectionfour = document.querySelector('#section-four');
+
+const sectionfive = document.querySelector('#section-five');
+console.log(section-four);
+console.log(section-five);
+console.log(section-three);
