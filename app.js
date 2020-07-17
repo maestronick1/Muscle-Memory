@@ -125,22 +125,28 @@ containerSix.appendChild(paraSix);
 
 
 
-
-
+//create another container
 
 const containerSeven = document.createElement("div");
+//add class
 containerSeven.classList.add("container-seven");
 console.log(containerSix);
-const sectionSeven = document.createElement("h2")
-sectionSeven.setAttribute("id", "section-seven"
+//create a section
+const sectionSeven = document.createElement("h2");
+// add an id
+sectionSeven.setAttribute("id", "section-seven");
+// add text content
 sectionSeven.textContent = "Beethoven";
 console.log(sectionSeven);
+//add another paragraph
 const paraSeven = document.createElement("p");
+//add a class
 paraSeven.classList.add("paragraph-seven");
+//add text content
 paraSeven.textContent = "Symphony number Five";
 console.log(paraSeven);
 
-
+//append
 body.appendChild(containerSeven);
 container.appendChild(sectionSeven);
 containerSeven.appendChild(paraSeven);
